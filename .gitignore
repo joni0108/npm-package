@@ -1,0 +1,10 @@
+# dev dependencies & outputs
+node_modules
+coverage
+
+# build output
+dist
+
+# environment files and secrets
+.env
+.env.local

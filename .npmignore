@@ -1,0 +1,15 @@
+# development outputs and codebase
+node_modules
+coverage
+.husky
+
+# development codebase - your main code
+src
+
+# development configuration files
+.eslintignore
+.gitignore
+.tsconig.json
+eslint.config.js
+tsup.config.ts
+vitest.config.ts
