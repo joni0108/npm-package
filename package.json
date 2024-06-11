@@ -1,58 +1,53 @@
 {
-  "name": "@codixfy/npm-template",
-  "description": "A boilerplate for an npm package with Typescript, ESlint, Vitest, Husky, and Github Actions.",
-  "version": "0.0.1",
-  "scripts": {
-    "build": "tsup",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage",
-    "lint": "eslint ./src/**/*.ts",
-    "lint:fix": "eslint ./src/**/*.ts --fix",
-    "prettier": "prettier --check src",
-    "prettier:fix": "prettier --write src",
-    "init": "npm uninstall greeter-package",
-    "prepare": "husky"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joni0108/t-npm-package.git"
-  },
-  "keywords": [
-    "npm",
-    "package",
-    "boilerplate",
-    "typescript",
-    "eslint",
-    "vitest",
-    "husky",
-    "github-actions",
-    "template"
-  ],
-  "author": "Jonathan Fernandez | Codixfy LLC",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/joni0108/t-npm-package/issues"
-  },
-  "homepage": "https://github.com/joni0108/t-npm-package",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-  "devDependencies": {
-    "@eslint/js": "^9.4.0",
-    "@types/eslint__js": "^8.42.3",
-    "@typescript-eslint/eslint-plugin": "^7.13.0",
-    "@typescript-eslint/parser": "^7.13.0",
-    "@vitest/coverage-v8": "^1.6.0",
-    "eslint": "^8.57.0",
-    "husky": "^9.0.11",
-    "prettier": "^3.3.2",
-    "tsup": "^8.1.0",
-    "typescript": "^5.4.5",
-    "typescript-eslint": "^7.12.0",
-    "vitest": "^1.6.0"
-  },
-  "dependencies": {
-    "greeter-package": "^1.0.1"
-  }
+	"name": "@codixfy/npm-template",
+	"description": "A boilerplate for an npm package with Typescript, ESlint, Vitest, Husky, and Github Actions.",
+	"version": "0.0.1",
+	"scripts": {
+		"build": "tsup",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"test:coverage": "vitest run --coverage",
+		"format": "npx @biomejs/biome format .",
+		"format:fix": "npx @biomejs/biome format --write .",
+		"lint": "biome lint .",
+		"lint:fix": "npx @biomejs/biome lint --write .",
+		"lint:unsafe": "npx @biomejs/biome lint --write --unsafe .",
+		"init": "npm uninstall greeter-package",
+		"prepare": "husky"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/joni0108/t-npm-package.git"
+	},
+	"keywords": [
+		"npm",
+		"package",
+		"boilerplate",
+		"typescript",
+		"eslint",
+		"vitest",
+		"husky",
+		"github-actions",
+		"template"
+	],
+	"author": "Jonathan Fernandez | Codixfy LLC",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/joni0108/t-npm-package/issues"
+	},
+	"homepage": "https://github.com/joni0108/t-npm-package",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"devDependencies": {
+		"@biomejs/biome": "1.4.1",
+		"@vitest/coverage-v8": "^1.6.0",
+		"husky": "^9.0.11",
+		"tsup": "^8.1.0",
+		"typescript": "^5.4.5",
+		"vitest": "^1.6.0"
+	},
+	"dependencies": {
+		"greeter-package": "^1.0.1"
+	}
 }

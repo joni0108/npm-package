@@ -1,0 +1,42 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.4.1/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true
+		}
+	},
+	"files": {
+		"ignore": [
+			"node_modules",
+			"dist",
+			"coverage",
+			"*.log",
+			"*.lock",
+			"*.json",
+			"*.yml",
+			"*.yaml",
+			"*.md",
+			"*.txt",
+			"*.tsbuildinfo",
+			"*.map",
+			"*.js",
+			"*.d.ts",
+			"*.config.js",
+			"*.config.ts",
+			"*.config.json",
+			"*.config.yaml",
+			"*.config.yml",
+			"*.config.lock",
+			"*.config.log",
+			"*.config.txt",
+			"*.config.md",
+			"*.config.tsbuildinfo",
+			"*.config.map",
+			"*.config.d.ts"
+		]
+	}
+}
