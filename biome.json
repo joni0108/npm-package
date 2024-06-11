@@ -6,7 +6,16 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"recommended": true
+			"recommended": false,
+			"complexity": {
+				"all": true
+			},
+			"suspicious": {
+				"all": true
+			},
+			"correctness": {
+				"all": true
+			}
 		}
 	},
 	"files": {
