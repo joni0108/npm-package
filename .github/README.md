@@ -32,7 +32,7 @@
 It's just about saving time, you have all the initial things your project needs with just a couple of clicks instead of spend hours making everything ready.
 
 <details>
-<summary>Just see what are saving time on:</summany>
+<summary>Just see what are saving time on:</summary>
 
 <br>
 
@@ -139,4 +139,4 @@ Remember, `<root>/README.md` file is the one shown on NPM, and `<root>/.github/R
 | `lint:fix` | Fix all the safe lint errors |
 | `lint:unsafe` | Fix all lint errors, safe and unsafe. |
 | `init` | Uninstall the demo package.
-| `prepare` | Husky automated script.
+| `prepare` | Husky automated script. |

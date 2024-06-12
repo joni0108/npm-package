@@ -37,5 +37,15 @@ import { Example } from "example"
 
 Read the full docs at -> your link here <-
 
+Don't forget to add:
+
+> [!TIP] Tips
+
+> [!NOTE] Notes
+
+> [!WARNING] Warnings
+
+As they help you communicate.
+
 #### Notes
 If you want to see the real documentation of the repository, please, go to `.github/README.md`
