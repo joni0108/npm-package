@@ -1,8 +1,7 @@
 //? You can use these files and folders to structure your project as you like. Don't forget to export your classes, functions, etc.
-const { Greeter } = require('greeter-package')
-
-export type GreetNpmType = () => string
+import { Greeter } from "greeter-package";
+import type { GreetNpmType } from "../types";
 
 export function GreetNpm(): ReturnType<GreetNpmType> {
-	return Greeter('NPM')
+	return Greeter("NPM");
 }
