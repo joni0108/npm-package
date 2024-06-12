@@ -2,8 +2,6 @@
 import { Greeter } from "greeter-package";
 import type { GreetNpmType } from "../types";
 
-function x() {}
-
 export function GreetNpm(): ReturnType<GreetNpmType> {
 	return Greeter("NPM");
 }
