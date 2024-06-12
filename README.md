@@ -39,11 +39,14 @@ Read the full docs at -> your link here <-
 
 Don't forget to add:
 
-> [!TIP] Tips
+> [!TIP]
+> Tips
 
-> [!NOTE] Notes
+> [!NOTE]
+> Notes
 
-> [!WARNING] Warnings
+> [!WARNING]
+> Warnings
 
 As they help you communicate.
 
